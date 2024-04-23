@@ -1,3 +1,2 @@
-import { inicioSesion } from "./inicioSesion/inicioSesion.js";
-
-window.customElements.define('inicio-sesion',inicioSesion);
+import { HeaderComponent } from "./header/header.js";
+window.customElements.define('header-info',HeaderComponent);
