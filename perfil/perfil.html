@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <link rel="stylesheet" type="text/css" href="perfil.css">
+    <script type="module" src="./../header/header.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="profile">
+            <img src="./../img/perfilgrande.png" class="profile-pic">
+            <h2>Arturo Cervantes</h2>
+            <button class="orange-button">Mis Viajes</button>
+            <img src="./../img/image-removebg-preview (2).png" class="travel-pic">
+        </div>
+        <div class="posts">
+            <div class="post">
+                <h3> </h3>
+                <div class="textarea-container">
+                    <textarea id="post-text" onfocus="this.value=''">Escribir publicacion</textarea>
+                    <div class="icons">
+                        <img src="./../img/marcador.png" onclick="shareLocation()">
+                        <img src="./../img/imagen.png" onclick="document.getElementById('file-input').click()">
+                    </div>
+                    <input type="file" id="file-input" style="display: none" onchange="previewFile()">
+                </div>
+                <button class="publish-button">Publicar</button>
+            </div>
+            <div class="post-section">
+                <!-- Aquí es donde se mostrarán las publicaciones hechas -->
+            </div>
+        </div>
+            <!-- Aquí puedes agregar más secciones de publicaciones como la de arriba -->
+        </div>
+    </div>
+    <script src="perfil.js"></script>
+</body>
+</html>

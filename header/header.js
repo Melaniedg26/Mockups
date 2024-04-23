@@ -36,3 +36,4 @@ export class HeaderComponent extends HTMLElement{
         shadow.appendChild(link);
     }
 }
+customElements.define('header-component', HeaderComponent);

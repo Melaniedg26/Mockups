@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, lightblue, white);
+}
+
+.container {
+    display: flex;
+}
+
+.profile {
+    position: fixed;
+    width: 300px;
+    padding: 20px;
+}
+
+.profile-pic, .travel-pic {
+    width: 100%;
+   
+}
+
+.posts {
+    margin-left: 320px;
+    padding: 20px;
+    overflow-y: scroll;
+    width: calc(100% - 320px);
+    height: 100vh;
+}
+
+.orange-button, .publish-button {
+    background-color: orange;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.textarea-container {
+    position: relative;
+}
+
+.textarea-container textarea {
+    width: 100%;
+}
+
+.textarea-container .icons {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.textarea-container .icons img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.post-section {
+    background-color: lightblue;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
