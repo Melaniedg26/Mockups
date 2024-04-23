@@ -1,23 +1,59 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONEXION VIAJERA</title>
+    <title>Viajes</title>
     <link rel="stylesheet" href="viajes.css">
 </head>
 
 <body>
 
-    <header>
+    <header class="encabezado-superior">
+        <!-- Encabezado superior con una imagen central -->
+        <img src="./../img/imagen logo horizontal.png" alt="Logo" class="logo">
+    </header>
+
+    <header class="encabezado-inferior">
         <!-- Aquí va tu barra de navegación con el logo y opciones de usuario -->
+        <div class="imagenes-header">
+            <img src="./../img/sonido-de-timbre.png" alt="Imagen 1">
+            <img src="./../img/usuario.png" alt="Imagen 2">
+            <img src="./../img/pista.png" alt="Imagen 3">
+            <img src="./../img/hogar.png" alt="Imagen 4">
+        </div>
     </header>
 
     <main>
         <section class="perfil-usuario">
             <!-- Sección del perfil de usuario con avatar e información -->
+            <img src="./../img/perfilgrande.png" onclick="document.getElementById('file-input').click()">
+            <span class="nombre-usuario">Arturo Cervantes</span>
         </section>
+
+        <section class="crear-itinerario">
+            <!-- Botón para crear un nuevo itinerario -->
+            <button>Crear Itinerario</button>
+        </section>
+
+        <div class="proximos-viajes">
+            <!-- Texto "Próximos viajes:" -->
+            <span>Próximos viajes:</span>
+        </div>
+
+        <div class="seccion-resaltada">
+            <!-- Contenido de la primera sección resaltada -->
+        </div>
+        
+        <div class="seccion-resaltada">
+            <!-- Contenido de la segunda sección resaltada -->
+        </div>
+        
+        <div class="seccion-resaltada">
+            <!-- Contenido de la tercera sección resaltada -->
+        </div>
+        
 
         <section class="viajes-proximos">
             <!-- Lista de viajes próximos con imágenes, fechas y destinos -->
