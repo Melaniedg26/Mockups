@@ -1,0 +1,11 @@
+/* Estilos para el contenedor del enlace "Ir a Perfil" */
+.header {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para el enlace "Inicio de Sesión" */
+a.ir-a-inicio-sesion {
+    margin-top: 10px; /* Ajusta este valor según lo que necesites */
+}
