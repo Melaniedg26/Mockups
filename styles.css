@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    display:flex;
+    background-color:#D8E9F3;
+    
+}
+
+html, body {
+    height: 100%;
+}
+
+.inicioSesion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
