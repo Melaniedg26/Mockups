@@ -5,7 +5,6 @@ body {
 
 /* Estilos para el encabezado superior */
 .encabezado-superior {
-    background-color: #333; /* Color de fondo del encabezado */
     color: white; /* Color del texto en el encabezado */
     text-align: center; /* Alineación del contenido al centro */
     padding: 20px; /* Espaciado interno del encabezado */
