@@ -148,15 +148,6 @@ body {
 .ver-itinerario button:hover {
     background-color: #0056b3; /* Cambio de color de fondo al pasar el cursor */
 }
-/* Estilos para la sección de viajes próximos */
-.viajes-proximos {
-    /* Añade tus estilos aquí */
-}
-
-/* Estilos para el botón de crear itinerario */
-.crear-itinerario {
-    /* Añade tus estilos aquí */
-}
 
 /* Estilos para el pie de página */
 footer {
