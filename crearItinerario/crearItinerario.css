@@ -1,0 +1,193 @@
+/* Establecer el color de fondo de la página */
+body {
+    background-color: #B5E4FF; /* Color de fondo deseado */
+}
+
+/* Estilos para el encabezado superior */
+.encabezado-superior {
+    color: white; /* Color del texto en el encabezado */
+    text-align: center; /* Alineación del contenido al centro */
+    padding: 20px; /* Espaciado interno del encabezado */
+}
+
+/* Estilos para el encabezado inferior */
+.encabezado-inferior {
+    text-align: center; /* Alineación del contenido al centro */
+    padding: 10px; /* Espaciado interno del encabezado */
+    
+    margin-bottom: 20px; /* Margen inferior para separación */
+}
+
+
+/* Estilos para las imágenes del encabezado */
+.encabezado-inferior .imagenes-header img {
+    width: 50px; /* Tamaño deseado para las imágenes */    
+    float: right;/* Esto alineará la imagen a la derecha */
+    margin-right: 30px;
+    /* Esto añadirá un poco de espacio a la derecha de la imagen */
+}
+
+/* Estilos para la sección del perfil de usuario */
+/* Estilos para la imagen del perfil del usuario */
+.perfil-usuario img {
+    padding: 50px; /* Espaciado interno del encabezado */
+    width: 190px;
+    /* Ajusta esto al tamaño que desees */
+    height: 160px;
+    /* Asegúrate de que el alto y el ancho sean iguales para mantener la imagen cuadrada */
+    float: left;
+    /* Esto alineará la imagen a la izquierda */
+    margin-right: 10px;
+    /* Esto añadirá un poco de espacio a la derecha de la imagen */
+}
+
+.perfil-usuario span {
+    display: inline-block; /* Para que el nombre se muestre en línea con la imagen */
+    padding: 100px; /* Espaciado interno del encabezado */
+    margin-left: -100px; /* Espacio entre la imagen y el nombre */
+    font-size: 40px; /* Tamaño de la fuente del nombre */
+}
+
+/* Estilos para la sección de crear itinerario */
+.crear-itinerario {
+    text-align: right; /* Alinea el contenido a la derecha */
+    margin-top: 10px; /* Espacio superior */
+}
+
+/* Estilos para el botón de crear itinerario */
+.crear-itinerario button {
+    /* Estilos para el botón */
+    background-color: #fc9432; /* Color de fondo */
+    color: black; /* Color del texto */
+    border:color(from color srgb r g b); /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero */
+    font-size: 30px; /* Tamaño de la fuente */
+    margin-right: 30px;
+}
+
+/* Estilos para el botón de crear itinerario al pasar el cursor */
+.crear-itinerario button:hover {
+    background-color: #0056b3; /* Cambio de color de fondo al pasar el cursor */
+}
+
+/* Estilos para el contenedor de "Próximos viajes" */
+.proximos-viajes {
+    text-align: center; /* Alinea el contenido a la izquierda */
+    margin-top: 10px; /* Espacio superior */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilos para el texto "Próximos viajes" */
+.proximos-viajes span {
+    font-size: 30px; /* Tamaño de la fuente */
+    color: #000; /* Color del texto */
+    margin-left: 40px;
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para el contenedor de "Próximos viajes" */
+.nombre-itinerario {
+    text-align: left; /* Alinea el contenido a la izquierda */
+    margin-top: 10px; /* Espacio superior */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+input {
+    width: 80%; /* Establece el ancho del campo al 80% del ancho del contenedor padre */
+    max-width: 800px; /* Establece el ancho máximo del campo */
+    padding: 10px; /* Añade un espacio interno alrededor del campo */
+    margin: 20px auto; /* Centra el campo horizontalmente y le agrega margen superior e inferior */
+}
+
+#registrar-btn {
+    background-color: orange; /* Color de fondo naranja */
+    color: black; /* Color del texto */
+    padding: 10px 20px; /* Espacio interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    position: fixed; /* Fija la posición del botón */
+    bottom: 20px; /* Distancia desde la parte inferior */
+    right: 20px; /* Distancia desde la derecha */
+    font-size: 20px; /* Tamaño de la fuente */
+}
+
+/* Estilos para el texto "Próximos viajes" */
+.nombre-itinerario span {
+    font-size: 30px; /* Tamaño de la fuente */
+    color: #000; /* Color del texto */
+    margin-left: 40px;
+}
+
+/* Estilos para la sección resaltada */
+.seccion-resaltada {
+    background-color: #699BFF; /* Color de fondo azul más oscuro */
+    color: #fff; /* Color del texto blanco */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espacio inferior */
+    border-radius: 10px; /* Redondea las esquinas */
+    margin-left: 40px; /* Margen izquierdo */
+    width: calc(100% - 100px); /* Ancho del bloque (resta 40px para el padding) */
+    margin-top: 20px; /* Espacio superior */
+}
+
+/* Estilos para el contenido de la sección resaltada */
+.seccion-resaltada .contenido {
+    display: flex; /* Utiliza un diseño flexible */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+}
+
+/* Estilos para el párrafo dentro de la sección resaltada */
+.seccion-resaltada p {
+    margin: 0; /* Elimina el margen predeterminado */
+    color: #000; /* Color del texto blanco */
+    font-size: 30px; /* Tamaño de la fuente */
+}
+
+/* Estilos para el párrafo dentro de la sección resaltada */
+.seccion-resaltada p1 {
+    margin: 0; /* Elimina el margen predeterminado */
+    color: #000; /* Color del texto blanco */
+    font-size: 30px; /* Tamaño de la fuente */
+    margin-left: 160px; /* Margen izquierdo */
+    text-decoration: underline; /* Subraya el texto */
+}
+
+/* Estilos para la imagen dentro de la sección resaltada */
+.seccion-resaltada img {
+    width: 150px; /* Ancho de la imagen */
+    height: auto; /* Altura automática */
+    margin-right: 10px; /* Espacio a la derecha del texto */
+}
+
+.ver-itinerario {
+    text-align: right; /* Alinea el contenido del contenedor a la derecha */
+    margin-top: 10px; /* Espacio superior */
+}
+
+.ver-itinerario button {
+    /* Estilos para el botón */
+    background-color: #fc9432; /* Color de fondo */
+    color: black; /* Color del texto */
+    border:color(from color srgb r g b); /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero */
+    font-size: 30px; /* Tamaño de la fuente */
+    margin-left: 610px;
+}
+
+/* Estilos para el botón de crear itinerario al pasar el cursor */
+.ver-itinerario button:hover {
+    background-color: #0056b3; /* Cambio de color de fondo al pasar el cursor */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #9FCFEB;
+    color: #343b41;
+    text-align: center;
+    font-size: 20px; /* Tamaño de la fuente */
+    padding: 10px 0;
+}
